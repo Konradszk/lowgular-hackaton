@@ -3,5 +3,4 @@ export interface MarsColonistsModel {
   readonly lastName: string;
   readonly dateOfBirth: string;
   readonly children: MarsColonistsModel[];
-  readonly siblings: MarsColonistsModel[];
 }
