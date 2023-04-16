@@ -1,0 +1,19 @@
+<div>
+    <h2>Create Your Personal Family Tree</h2>
+</div>
+<form formGroupName="citizenForm" (ngSubmit)="onFormSubmitted(citizenForm)">
+    <div>
+        <div>
+            <label for="firstName">First Name</label>
+            <input formControlName="firstName" id="firstName" type="text" placeholder="First Name" />
+        </div>
+        <div>
+            <label for="firstName">Last Name</label>
+            <input formControlName="lastName" id="lastName" type="text" placeholder="Last Name" />
+        </div>
+        <div>
+            <label for="firstName">Date of birth</label>
+            <input formControlName="birthDate" id="birthDate" type="text" placeholder="Date of birth" />
+        </div>
+    </div>
+</form>
